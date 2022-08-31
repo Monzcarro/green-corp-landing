@@ -57,6 +57,7 @@ button {
   background: url(img/back.png) no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .about h1 {
   font-size: 70px;
@@ -306,7 +307,12 @@ button {
   font-size: 15px;
   margin-left: 5px;
 }
-
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
